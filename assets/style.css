@@ -1,0 +1,46 @@
+@import url(reset.css);
+:root{
+    --fonte-titulo:"Bebas Neue";
+    --fonte-x: "Kanit";
+
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+.title{
+    color: white;
+    font-size: 4em;
+    margin: 0 0 0.5em 0;
+    font-family: var(--fonte-titulo);
+}
+.jogo{
+    display: flex;
+    height: 700px;
+    width: 700px;
+    justify-content: center;
+    background-color: black;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.quadrados{
+    height: 33%;
+    width: 30%;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-family: var(--fonte-x);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10em;
+}
+h2, .jogador{
+    color: white;
+    font-family: var(--fonte-titulo);
+    font-size: 2em;
+}
